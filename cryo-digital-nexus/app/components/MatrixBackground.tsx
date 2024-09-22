@@ -25,6 +25,8 @@ const MatrixBackground: React.FC = () => {
     const matrix = '333ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()_+-=[]{}|;:,.<>?'
 
     function draw() {
+      if (!ctx) return  // Add this check
+
       ctx.fillStyle = 'rgba(0, 10, 30, 0.1)'
       ctx.fillRect(0, 0, canvas.width, canvas.height)
 
