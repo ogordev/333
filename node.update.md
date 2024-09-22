@@ -20,4 +20,4 @@ git commit -m "Reinstall Node project and set up Next.js"
 
 git push origin main
 
-
+npm run dev
