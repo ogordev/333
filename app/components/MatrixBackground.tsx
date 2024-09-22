@@ -12,20 +12,23 @@ const MatrixBackground: React.FC = () => {
     const ctx = canvas.getContext('2d')
     if (!ctx) return
 
-    canvas.width = window.innerWidth
-    canvas.height = window.innerHeight
-
-    const columns = canvas.width / 20
-    const drops: number[] = []
-
-    for (let i = 0; i < columns; i++) {
-      drops[i] = 1
+    const resizeCanvas = () => {
+      if (canvas) {
+        canvas.width = window.innerWidth
+        canvas.height = window.innerHeight
+      }
     }
+
+    resizeCanvas()
+    window.addEventListener('resize', resizeCanvas)
+
+    const columns = Math.floor(canvas.width / 20)
+    const drops: number[] = new Array(columns).fill(1)
 
     const matrix = '333ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()_+-=[]{}|;:,.<>?'
 
     function draw() {
-      if (!ctx) return  // Add this check
+      if (!ctx || !canvas) return
 
       ctx.fillStyle = 'rgba(0, 10, 30, 0.1)'
       ctx.fillRect(0, 0, canvas.width, canvas.height)
@@ -47,7 +50,10 @@ const MatrixBackground: React.FC = () => {
 
     const interval = setInterval(draw, 33)
 
-    return () => clearInterval(interval)
+    return () => {
+      clearInterval(interval)
+      window.removeEventListener('resize', resizeCanvas)
+    }
   }, [])
 
   return <canvas ref={canvasRef} className="fixed inset-0 w-full h-full z-0" />
