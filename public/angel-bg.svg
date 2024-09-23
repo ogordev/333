@@ -1,0 +1,11 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="angel-pattern" patternUnits="userSpaceOnUse" width="100" height="100">
+      <path d="M50 15 L60 40 L85 50 L60 60 L50 85 L40 60 L15 50 L40 40 Z" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.3"/>
+      <circle cx="50" cy="50" r="3" fill="#FFD700" opacity="0.3"/>
+      <path d="M30 30 Q50 10 70 30 T90 50" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.2"/>
+      <path d="M10 50 Q30 70 50 90 T90 50" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="100" height="100" fill="url(#angel-pattern)"/>
+</svg>
