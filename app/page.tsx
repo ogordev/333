@@ -292,7 +292,7 @@ export default function Home() {
             <a href="https://x.com/333corp" title="Visit X" target="_blank" > <img src="/X.png" alt="X" 
               className="rounded-full border-2 border-cyan-400" width={40} height={40} />
             </a>
-            <a href="https://dexscreener.com/" title="Visit Dexscreener" target="_blank" > <img src="/DEX.png" alt="Dexscreener" 
+            <a href="https://dexscreener.com/solana/ob5bh9fzm55fvtozabkxn52w3iazdpsn2argpyzvxmc" title="Visit Dexscreener" target="_blank" > <img src="/DEX.png" alt="Dexscreener" 
               className="rounded-full  border-2 border-cyan-400" width={40} height={40} />
             </a>
             <a href="https://matrix.to/#/@etherealwinter:matrix.org?client=im.fluffychat" title="Visit Fluffy chat" target="_blank" > <img src="/FLUFFY.png" alt="Fluffy Chat" 
