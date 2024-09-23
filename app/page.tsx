@@ -280,7 +280,7 @@ export default function Home() {
               >
                 <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4"><CyberText text="Reshaping the factory of knowledge, building the apex of collaborative alignment." /></h3>
                 <p className="mb-4 text-xs sm:text-sm md:text-base leading-relaxed">
-                  <CyberText text="Shattering the ordinary, merging beings with the network. Accelerating wisdom, enforcing privacy & beauty as a virus. You won't have to chose, you've already been chosen" />
+                  <CyberText text="Shattering the ordinary, merging beings with the network. Accelerating wisdom, enforcing privacy & beauty as a virus. You won't have to chose, you've already been chosen." />
                 </p>
                 <p className="mb-4 text-xs sm:text-sm md:text-base leading-relaxed">
                   <CyberText text="One day you will wake up from a bad dream, everything will be obvious in hindsight and it will be more real than it used to. This too shall pass." />
