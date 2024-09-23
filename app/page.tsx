@@ -295,10 +295,10 @@ export default function Home() {
             <a href="https://dexscreener.com/" title="Visit Dexscreener" target="_blank" > <img src="/DEX.png" alt="Dexscreener" 
               className="rounded-full  border-2 border-cyan-400" width={40} height={40} />
             </a>
-            <a href="https://dexscreener.com/" title="Visit Fluffy chat" target="_blank" > <img src="/FLUFFY.png" alt="Fluffy Chat" 
+            <a href="https://matrix.to/#/@etherealwinter:matrix.org?client=im.fluffychat" title="Visit Fluffy chat" target="_blank" > <img src="/FLUFFY.png" alt="Fluffy Chat" 
               className="rounded-full  border-2 border-cyan-400" width={40} height={40} />
             </a>
-            <a href="https://dexscreener.com/" title="Visit Telegram" target="_blank" > <img src="/TG.png" alt="Telegram" 
+            <a href="https://t.me/k333ys" title="Visit Telegram" target="_blank" > <img src="/TG.png" alt="Telegram" 
               className="rounded-full  border-2 border-cyan-400" width={40} height={40} />
             </a>
             </div>
