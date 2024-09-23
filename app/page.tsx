@@ -210,7 +210,7 @@ export default function Home() {
         }
       `}</style>
       <div className="content-wrapper">
-        <MatrixBackground startDelay={5400} />
+        <MatrixBackground />
         <CustomCursor />
         <AnimatePresence mode="wait">
           {loading && <LoadingScreen />}

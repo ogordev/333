@@ -16,7 +16,7 @@ body {
     rgb(var(--background-end-rgb))
   ) rgb(var(--background-start-rgb));
   overflow-x: hidden;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: CENTURYXXIII, Helvetica, sans-serif;
 }
 
 @keyframes flicker {
